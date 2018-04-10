@@ -1,0 +1,10 @@
+{
+        "port": CTFPAD_PORT,
+        "etherpad_port": ETHERPAD_PORT,
+        "etherpad_internal_port": ETHERPAD_INTERNAL_PORT,
+        "keyfile": "CTFPAD_SSL_KEY_FILE",
+        "certfile": "CTFPAD_SSL_CERT_FILE",
+        "authkey": "CTFPAD_AUTHKEY",
+        "useHTTPS": CTFPAD_USE_HTTPS,
+        "proxyUseHTTPS": CTFPAD_PROXY_USE_HTTPS
+}

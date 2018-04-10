@@ -1,0 +1,48 @@
+{
+  "title": "CTFPad",
+  "favicon": "favicon.ico",
+  "ip": "0.0.0.0",
+  "port" : ETHERPAD_INTERNAL_PORT,
+  "showSettingsInAdminPage" : true,
+
+  DATABASE_CONNECTION_STRING
+
+  "defaultPadText" : "",
+  "padOptions": {
+    "noColors": false,
+    "showControls": true,
+    "showChat": true,
+    "showLineNumbers": true,
+    "useMonospaceFont": false,
+    "userName": false,
+    "userColor": false,
+    "rtl": false,
+    "alwaysShowChat": false,
+    "chatAndUsers": false,
+    "lang": "en-gb"
+  },
+  "suppressErrorsInPadText" : true,
+  "requireSession" : false,
+  "editOnly" : false,
+  "sessionNoPassword" : false,
+  "minify" : true,
+  "maxAge" : 21600,
+  "abiword" : null,
+  "soffice" : null,
+  "tidyHtml" : null,
+  "allowUnknownFileEnds" : true,
+  "requireAuthentication" : false,
+  "requireAuthorization" : false,
+  "trustProxy" : false,
+  "disableIPlogging" : false,
+  "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
+  "loadTest": false,
+  "loglevel": "INFO",
+  "logconfig" :
+    { "appenders": [
+        { 
+          "type": "console"
+        }
+      ]
+    }
+}
