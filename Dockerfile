@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 LABEL maintainer="lucebac <docker@lucebac.net>"
 
-RUN apk add -U --no-cache curl unzip nodejs nodejs-npm sqlite openssl git python \
+RUN apk add -U --no-cache curl unzip nodejs nodejs-npm sqlite openssl git python file \
     && adduser -D ctfpad \
     && mkdir /ctfpad && chown ctfpad:ctfpad /ctfpad
 
